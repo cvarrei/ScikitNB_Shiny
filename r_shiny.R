@@ -435,9 +435,9 @@ server <- function(input, output, session) {
       
       # Update reactive values
       X_train(training[, !(colnames(training) %in% input$targetFeature), drop = FALSE])
-      y_train(training[[input$targetFeature]])
+      y_train(as.factor(training[[input$targetFeature]]))
       X_test(testing[, !(colnames(testing) %in% input$targetFeature), drop = FALSE])
-      y_test(testing[[input$targetFeature]])
+      y_test(as.factor(testing[[input$targetFeature]]))
       
     } else if(modelType_chosen == "CategoricalNB"){
       

@@ -1,6 +1,6 @@
 # ScikitNB_Shiny
 
-The RShiny application is available on: [https://scikitnb-sise.shinyapps.io/Scikit_Naive_Bayes/](https://scikitnb-sise.shinyapps.io/Scikit_Naive_Bayes/). The package is available [here](https://github.com/cvarrei/ScikitNB). 
+The RShiny application is available on: [https://scikitnb-sise.shinyapps.io/Scikit_Naive_Bayes/](https://scikitnb-sise.shinyapps.io/Scikit_Naive_Bayes/).It can be run locally using the R file 'r-shiny.R'. The package is available [here](https://github.com/cvarrei/ScikitNB). 
 
 We deployed an application based on the ScikitNB R package we created. Our three Naïve Bayes Model are available for the user. 
 

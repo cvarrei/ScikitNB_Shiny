@@ -321,7 +321,6 @@ server <- function(input, output, session) {
     }
   })
   
-  # In your server function
   output$parameters_list <- renderUI({
     modelType_chosen <- input$modelType
     dfExcludingTarget <- nonTargetFeatureData()

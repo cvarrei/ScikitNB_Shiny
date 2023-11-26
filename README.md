@@ -31,7 +31,7 @@ Afterwards, you should 'Instantiate the model!'. The next step involves splittin
 
 The fourth page displays the model's performance on the training dataset, including a confusion matrix and a summary of the results. The summary is specific to the model chosen.
 
-<img src="https://github.com/cvarrei/ScikitNB_Shiny/blob/main/images/readme_package/Capture4.PNG" width="950" height="400">
+<img src="https://github.com/cvarrei/ScikitNB_Shiny/blob/main/images/readme_package/Capture4b.PNG" width="950" height="400">
 
 ## Test Scores
 Finally, the fifth page presents the results on the test dataset, featuring the score (including the confusion matrix, error rate, recall, and precision), a plotted confusion matrix, and the ROC curve.
